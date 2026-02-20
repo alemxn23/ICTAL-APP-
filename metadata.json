@@ -1,0 +1,7 @@
+{
+  "name": "EpilepsyCare AI",
+  "description": "Aplicación SaMD Clase IIa de grado médico para la gestión de crisis en tiempo real, cumpliendo con los estándares de seguridad IEC 62304.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

@@ -1,0 +1,30 @@
+name: FidelEpilepsy
+options:
+  bundleIdPrefix: com.fidelepilepsy
+  createIntermediateGroups: true
+  groupSortPosition: top
+targets:
+  FidelEpilepsy:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    info:
+      path: iOS/Info.plist
+      properties:
+        UILaunchScreen: {}
+    sources:
+      - path: iOS
+      - path: Shared
+    dependencies:
+      - target: FidelEpilepsyWatchApp
+  FidelEpilepsyWatchApp:
+    type: watchapp
+    platform: watchOS
+    deploymentTarget: "10.0"
+    info:
+      path: WatchApp/Info.plist
+      properties:
+        WKApplication: true
+    sources:
+      - path: WatchApp
+      - path: Shared
