@@ -19,6 +19,7 @@ import { Phase4Recovery } from './components/Phase4Recovery';
 
 // Auth context (only for profile tab integration — no app gate)
 import { OnboardingProvider } from './context/OnboardingContext';
+import { AuthProvider } from './context/AuthContext';
 
 const App: React.FC = () => {
   // --- Global State ---
@@ -229,23 +230,25 @@ const App: React.FC = () => {
   return (
     // OnboardingProvider wraps for auth state — does NOT gate the app
     <OnboardingProvider>
-      <div className="w-full h-screen bg-black overflow-hidden font-sans select-none">
-        <div className="w-full h-full max-w-md mx-auto relative bg-med-black shadow-2xl overflow-hidden">
-          {renderContent()}
+      <AuthProvider>
+        <div className="w-full h-screen bg-black overflow-hidden font-sans select-none">
+          <div className="w-full h-full max-w-md mx-auto relative bg-med-black shadow-2xl overflow-hidden">
+            {renderContent()}
 
-          {/* Floating SOS Setup Button */}
-          {phase === SeizurePhase.IDLE && !showContacts && !showHistory && !showProfile && (
-            <div className="absolute top-16 right-4 z-20">
-              <button
-                onClick={() => setShowContacts(true)}
-                className="text-[10px] font-bold text-med-red bg-med-red/10 border border-med-red/30 px-2 py-1 rounded-full animate-pulse"
-              >
-                SOS SETUP
-              </button>
-            </div>
-          )}
+            {/* Floating SOS Setup Button */}
+            {phase === SeizurePhase.IDLE && !showContacts && !showHistory && !showProfile && (
+              <div className="absolute top-16 right-4 z-20">
+                <button
+                  onClick={() => setShowContacts(true)}
+                  className="text-[10px] font-bold text-med-red bg-med-red/10 border border-med-red/30 px-2 py-1 rounded-full animate-pulse"
+                >
+                  SOS SETUP
+                </button>
+              </div>
+            )}
+          </div>
         </div>
-      </div>
+      </AuthProvider>
     </OnboardingProvider>
   );
 };
