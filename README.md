@@ -1,20 +1,25 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# MedTech Project - Engineering Standards
 
-# Run and deploy your AI Studio app
+Este repositorio utiliza un flujo de trabajo profesional diseñado para evitar colisiones entre el frontend (React/Vite), el backend (Node/Supabase) y la App iOS (Xcode).
 
-This contains everything you need to run your app locally.
+## 🚀 Workflow de Desarrollo (Git Flow)
 
-View your app in AI Studio: https://ai.studio/apps/drive/179AMunZZplgS7lhGM2C5gBw8vtbVbbQe
+Para mantener la integridad del código, utilizamos un flujo de ramas estricto manejado por **Antigravity AI**.
 
-## Run Locally
+### Cómo contribuir:
+1. **Inicia el Agente:** Abre el panel de Antigravity en el repositorio.
+2. **Comando Mágico:** Escribe `/git-flow`.
+3. **Sigue las instrucciones:** El agente te preguntará qué estás haciendo y creará la rama con la nomenclatura correcta:
+   - `feat/`: Nuevas funcionalidades.
+   - `fix/`: Corrección de errores.
+   - `refactor/`: Mejoras de código sin cambio de lógica.
 
-**Prerequisites:**  Node.js
+### Reglas de Oro:
+- **Prohibido `git push --force`**: Si rompes la historia, rompes el trabajo de todos.
+- **Conventional Commits**: Todos los commits deben seguir el estándar (ej. `feat(ui): add login button`).
+- **Xcode Safety**: El `.gitignore` está configurado para ignorar `DerivedData` y `UserInterfaceState`. Si Xcode te pide "Save changes" en archivos que no tocaste, no los incluyas en el commit.
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠 Stack Tecnológico
+- **Frontend:** React + Vite + Tailwind (TypeScript)
+- **Mobile:** iOS Nativo (SwiftUI / Xcode)
+- **Backend:** Node.js + Supabase
