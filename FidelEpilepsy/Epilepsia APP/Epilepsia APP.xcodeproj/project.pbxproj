@@ -1,0 +1,1082 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52DF569F2F442AA9009A7DD0 /* EpilepsiaWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 52DF567F2F442AA7009A7DD0 /* EpilepsiaWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52DF564E2F44286E009A7DD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52DF56342F44286B009A7DD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52DF563B2F44286B009A7DD0;
+			remoteInfo = "Epilepsia APP";
+		};
+		52DF56582F44286E009A7DD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52DF56342F44286B009A7DD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52DF563B2F44286B009A7DD0;
+			remoteInfo = "Epilepsia APP";
+		};
+		52DF568C2F442AA9009A7DD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52DF56342F44286B009A7DD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52DF567E2F442AA7009A7DD0;
+			remoteInfo = "EpilepsiaWatch Watch App";
+		};
+		52DF56962F442AA9009A7DD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52DF56342F44286B009A7DD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52DF567E2F442AA7009A7DD0;
+			remoteInfo = "EpilepsiaWatch Watch App";
+		};
+		52DF569D2F442AA9009A7DD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52DF56342F44286B009A7DD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52DF567E2F442AA7009A7DD0;
+			remoteInfo = "EpilepsiaWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		52DF56A32F442AA9009A7DD0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				52DF569F2F442AA9009A7DD0 /* EpilepsiaWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		52DF563C2F44286B009A7DD0 /* Epilepsia APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Epilepsia APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DF564D2F44286E009A7DD0 /* Epilepsia APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Epilepsia APPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DF56572F44286E009A7DD0 /* Epilepsia APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Epilepsia APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DF567F2F442AA7009A7DD0 /* EpilepsiaWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EpilepsiaWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DF568B2F442AA9009A7DD0 /* EpilepsiaWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EpilepsiaWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DF56952F442AA9009A7DD0 /* EpilepsiaWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EpilepsiaWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		52DF565F2F44286E009A7DD0 /* Exceptions for "Epilepsia APP" folder in "Epilepsia APP" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 52DF563B2F44286B009A7DD0 /* Epilepsia APP */;
+		};
+		52DF56E02F4434AF009A7DD0 /* Exceptions for "EpilepsiaWatch Watch App" folder in "EpilepsiaWatch Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				WatchApp/Info.plist,
+			);
+			target = 52DF567E2F442AA7009A7DD0 /* EpilepsiaWatch Watch App */;
+		};
+		52DF56E52F44384F009A7DD0 /* Exceptions for "Epilepsia APP" folder in "EpilepsiaWatch Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Views/Shared/HealthModels.swift,
+			);
+			target = 52DF567E2F442AA7009A7DD0 /* EpilepsiaWatch Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		52DF563E2F44286B009A7DD0 /* Epilepsia APP */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				52DF565F2F44286E009A7DD0 /* Exceptions for "Epilepsia APP" folder in "Epilepsia APP" target */,
+				52DF56E52F44384F009A7DD0 /* Exceptions for "Epilepsia APP" folder in "EpilepsiaWatch Watch App" target */,
+			);
+			path = "Epilepsia APP";
+			sourceTree = "<group>";
+		};
+		52DF56502F44286E009A7DD0 /* Epilepsia APPTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Epilepsia APPTests";
+			sourceTree = "<group>";
+		};
+		52DF565A2F44286E009A7DD0 /* Epilepsia APPUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Epilepsia APPUITests";
+			sourceTree = "<group>";
+		};
+		52DF56802F442AA7009A7DD0 /* EpilepsiaWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				52DF56E02F4434AF009A7DD0 /* Exceptions for "EpilepsiaWatch Watch App" folder in "EpilepsiaWatch Watch App" target */,
+			);
+			path = "EpilepsiaWatch Watch App";
+			sourceTree = "<group>";
+		};
+		52DF568E2F442AA9009A7DD0 /* EpilepsiaWatch Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "EpilepsiaWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		52DF56982F442AA9009A7DD0 /* EpilepsiaWatch Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "EpilepsiaWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52DF56392F44286B009A7DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF564A2F44286E009A7DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF56542F44286E009A7DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF567C2F442AA7009A7DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF56882F442AA9009A7DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF56922F442AA9009A7DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52DF56332F44286B009A7DD0 = {
+			isa = PBXGroup;
+			children = (
+				52DF563E2F44286B009A7DD0 /* Epilepsia APP */,
+				52DF56502F44286E009A7DD0 /* Epilepsia APPTests */,
+				52DF565A2F44286E009A7DD0 /* Epilepsia APPUITests */,
+				52DF56802F442AA7009A7DD0 /* EpilepsiaWatch Watch App */,
+				52DF568E2F442AA9009A7DD0 /* EpilepsiaWatch Watch AppTests */,
+				52DF56982F442AA9009A7DD0 /* EpilepsiaWatch Watch AppUITests */,
+				52DF563D2F44286B009A7DD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52DF563D2F44286B009A7DD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52DF563C2F44286B009A7DD0 /* Epilepsia APP.app */,
+				52DF564D2F44286E009A7DD0 /* Epilepsia APPTests.xctest */,
+				52DF56572F44286E009A7DD0 /* Epilepsia APPUITests.xctest */,
+				52DF567F2F442AA7009A7DD0 /* EpilepsiaWatch Watch App.app */,
+				52DF568B2F442AA9009A7DD0 /* EpilepsiaWatch Watch AppTests.xctest */,
+				52DF56952F442AA9009A7DD0 /* EpilepsiaWatch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52DF563B2F44286B009A7DD0 /* Epilepsia APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DF56602F44286E009A7DD0 /* Build configuration list for PBXNativeTarget "Epilepsia APP" */;
+			buildPhases = (
+				52DF56382F44286B009A7DD0 /* Sources */,
+				52DF56392F44286B009A7DD0 /* Frameworks */,
+				52DF563A2F44286B009A7DD0 /* Resources */,
+				52DF56A32F442AA9009A7DD0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52DF569E2F442AA9009A7DD0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				52DF563E2F44286B009A7DD0 /* Epilepsia APP */,
+			);
+			name = "Epilepsia APP";
+			packageProductDependencies = (
+			);
+			productName = "Epilepsia APP";
+			productReference = 52DF563C2F44286B009A7DD0 /* Epilepsia APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52DF564C2F44286E009A7DD0 /* Epilepsia APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DF56652F44286E009A7DD0 /* Build configuration list for PBXNativeTarget "Epilepsia APPTests" */;
+			buildPhases = (
+				52DF56492F44286E009A7DD0 /* Sources */,
+				52DF564A2F44286E009A7DD0 /* Frameworks */,
+				52DF564B2F44286E009A7DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52DF564F2F44286E009A7DD0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				52DF56502F44286E009A7DD0 /* Epilepsia APPTests */,
+			);
+			name = "Epilepsia APPTests";
+			packageProductDependencies = (
+			);
+			productName = "Epilepsia APPTests";
+			productReference = 52DF564D2F44286E009A7DD0 /* Epilepsia APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52DF56562F44286E009A7DD0 /* Epilepsia APPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DF56682F44286E009A7DD0 /* Build configuration list for PBXNativeTarget "Epilepsia APPUITests" */;
+			buildPhases = (
+				52DF56532F44286E009A7DD0 /* Sources */,
+				52DF56542F44286E009A7DD0 /* Frameworks */,
+				52DF56552F44286E009A7DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52DF56592F44286E009A7DD0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				52DF565A2F44286E009A7DD0 /* Epilepsia APPUITests */,
+			);
+			name = "Epilepsia APPUITests";
+			packageProductDependencies = (
+			);
+			productName = "Epilepsia APPUITests";
+			productReference = 52DF56572F44286E009A7DD0 /* Epilepsia APPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		52DF567E2F442AA7009A7DD0 /* EpilepsiaWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DF56A02F442AA9009A7DD0 /* Build configuration list for PBXNativeTarget "EpilepsiaWatch Watch App" */;
+			buildPhases = (
+				52DF567B2F442AA7009A7DD0 /* Sources */,
+				52DF567C2F442AA7009A7DD0 /* Frameworks */,
+				52DF567D2F442AA7009A7DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				52DF56802F442AA7009A7DD0 /* EpilepsiaWatch Watch App */,
+			);
+			name = "EpilepsiaWatch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "EpilepsiaWatch Watch App";
+			productReference = 52DF567F2F442AA7009A7DD0 /* EpilepsiaWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52DF568A2F442AA9009A7DD0 /* EpilepsiaWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DF56A42F442AA9009A7DD0 /* Build configuration list for PBXNativeTarget "EpilepsiaWatch Watch AppTests" */;
+			buildPhases = (
+				52DF56872F442AA9009A7DD0 /* Sources */,
+				52DF56882F442AA9009A7DD0 /* Frameworks */,
+				52DF56892F442AA9009A7DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52DF568D2F442AA9009A7DD0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				52DF568E2F442AA9009A7DD0 /* EpilepsiaWatch Watch AppTests */,
+			);
+			name = "EpilepsiaWatch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "EpilepsiaWatch Watch AppTests";
+			productReference = 52DF568B2F442AA9009A7DD0 /* EpilepsiaWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52DF56942F442AA9009A7DD0 /* EpilepsiaWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DF56A72F442AA9009A7DD0 /* Build configuration list for PBXNativeTarget "EpilepsiaWatch Watch AppUITests" */;
+			buildPhases = (
+				52DF56912F442AA9009A7DD0 /* Sources */,
+				52DF56922F442AA9009A7DD0 /* Frameworks */,
+				52DF56932F442AA9009A7DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52DF56972F442AA9009A7DD0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				52DF56982F442AA9009A7DD0 /* EpilepsiaWatch Watch AppUITests */,
+			);
+			name = "EpilepsiaWatch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "EpilepsiaWatch Watch AppUITests";
+			productReference = 52DF56952F442AA9009A7DD0 /* EpilepsiaWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52DF56342F44286B009A7DD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					52DF563B2F44286B009A7DD0 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					52DF564C2F44286E009A7DD0 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 52DF563B2F44286B009A7DD0;
+					};
+					52DF56562F44286E009A7DD0 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 52DF563B2F44286B009A7DD0;
+					};
+					52DF567E2F442AA7009A7DD0 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					52DF568A2F442AA9009A7DD0 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 52DF567E2F442AA7009A7DD0;
+					};
+					52DF56942F442AA9009A7DD0 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 52DF567E2F442AA7009A7DD0;
+					};
+				};
+			};
+			buildConfigurationList = 52DF56372F44286B009A7DD0 /* Build configuration list for PBXProject "Epilepsia APP" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52DF56332F44286B009A7DD0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 52DF563D2F44286B009A7DD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52DF563B2F44286B009A7DD0 /* Epilepsia APP */,
+				52DF564C2F44286E009A7DD0 /* Epilepsia APPTests */,
+				52DF56562F44286E009A7DD0 /* Epilepsia APPUITests */,
+				52DF567E2F442AA7009A7DD0 /* EpilepsiaWatch Watch App */,
+				52DF568A2F442AA9009A7DD0 /* EpilepsiaWatch Watch AppTests */,
+				52DF56942F442AA9009A7DD0 /* EpilepsiaWatch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52DF563A2F44286B009A7DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF564B2F44286E009A7DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF56552F44286E009A7DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF567D2F442AA7009A7DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF56892F442AA9009A7DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF56932F442AA9009A7DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52DF56382F44286B009A7DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF56492F44286E009A7DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF56532F44286E009A7DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF567B2F442AA7009A7DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF56872F442AA9009A7DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF56912F442AA9009A7DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52DF564F2F44286E009A7DD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52DF563B2F44286B009A7DD0 /* Epilepsia APP */;
+			targetProxy = 52DF564E2F44286E009A7DD0 /* PBXContainerItemProxy */;
+		};
+		52DF56592F44286E009A7DD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52DF563B2F44286B009A7DD0 /* Epilepsia APP */;
+			targetProxy = 52DF56582F44286E009A7DD0 /* PBXContainerItemProxy */;
+		};
+		52DF568D2F442AA9009A7DD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52DF567E2F442AA7009A7DD0 /* EpilepsiaWatch Watch App */;
+			targetProxy = 52DF568C2F442AA9009A7DD0 /* PBXContainerItemProxy */;
+		};
+		52DF56972F442AA9009A7DD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52DF567E2F442AA7009A7DD0 /* EpilepsiaWatch Watch App */;
+			targetProxy = 52DF56962F442AA9009A7DD0 /* PBXContainerItemProxy */;
+		};
+		52DF569E2F442AA9009A7DD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52DF567E2F442AA7009A7DD0 /* EpilepsiaWatch Watch App */;
+			targetProxy = 52DF569D2F442AA9009A7DD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52DF56612F44286E009A7DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Epilepsia APP/Epilepsia_APP.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X4DCCBKHGH;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = YES;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = YES;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Epilepsia APP/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ICTAL;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Esta aplicación utiliza tus datos de salud para monitorizar posibles eventos epilépticos.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Esta aplicación guarda datos de salud relacionados con tus eventos.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MedTech-Labs.Epilepsia-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		52DF56622F44286E009A7DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Epilepsia APP/Epilepsia_APP.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X4DCCBKHGH;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = YES;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = YES;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Epilepsia APP/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ICTAL;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Esta aplicación utiliza tus datos de salud para monitorizar posibles eventos epilépticos.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Esta aplicación guarda datos de salud relacionados con tus eventos.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MedTech-Labs.Epilepsia-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		52DF56632F44286E009A7DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52DF56642F44286E009A7DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		52DF56662F44286E009A7DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MedTech-Labs.Epilepsia-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Epilepsia APP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Epilepsia APP";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		52DF56672F44286E009A7DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MedTech-Labs.Epilepsia-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Epilepsia APP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Epilepsia APP";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		52DF56692F44286E009A7DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MedTech-Labs.Epilepsia-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "Epilepsia APP";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		52DF566A2F44286E009A7DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MedTech-Labs.Epilepsia-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "Epilepsia APP";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		52DF56A12F442AA9009A7DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "EpilepsiaWatch Watch App/EpilepsiaWatch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X4DCCBKHGH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = EpilepsiaWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "MedTech-Labs.Epilepsia-APP";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MedTech-Labs.Epilepsia-APP.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		52DF56A22F442AA9009A7DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "EpilepsiaWatch Watch App/EpilepsiaWatch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X4DCCBKHGH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = EpilepsiaWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "MedTech-Labs.Epilepsia-APP";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MedTech-Labs.Epilepsia-APP.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		52DF56A52F442AA9009A7DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MedTech-Labs.EpilepsiaWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EpilepsiaWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EpilepsiaWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		52DF56A62F442AA9009A7DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MedTech-Labs.EpilepsiaWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EpilepsiaWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EpilepsiaWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		52DF56A82F442AA9009A7DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MedTech-Labs.EpilepsiaWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "EpilepsiaWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		52DF56A92F442AA9009A7DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MedTech-Labs.EpilepsiaWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "EpilepsiaWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52DF56372F44286B009A7DD0 /* Build configuration list for PBXProject "Epilepsia APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DF56632F44286E009A7DD0 /* Debug */,
+				52DF56642F44286E009A7DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DF56602F44286E009A7DD0 /* Build configuration list for PBXNativeTarget "Epilepsia APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DF56612F44286E009A7DD0 /* Debug */,
+				52DF56622F44286E009A7DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DF56652F44286E009A7DD0 /* Build configuration list for PBXNativeTarget "Epilepsia APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DF56662F44286E009A7DD0 /* Debug */,
+				52DF56672F44286E009A7DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DF56682F44286E009A7DD0 /* Build configuration list for PBXNativeTarget "Epilepsia APPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DF56692F44286E009A7DD0 /* Debug */,
+				52DF566A2F44286E009A7DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DF56A02F442AA9009A7DD0 /* Build configuration list for PBXNativeTarget "EpilepsiaWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DF56A12F442AA9009A7DD0 /* Debug */,
+				52DF56A22F442AA9009A7DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DF56A42F442AA9009A7DD0 /* Build configuration list for PBXNativeTarget "EpilepsiaWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DF56A52F442AA9009A7DD0 /* Debug */,
+				52DF56A62F442AA9009A7DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DF56A72F442AA9009A7DD0 /* Build configuration list for PBXNativeTarget "EpilepsiaWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DF56A82F442AA9009A7DD0 /* Debug */,
+				52DF56A92F442AA9009A7DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52DF56342F44286B009A7DD0 /* Project object */;
+}

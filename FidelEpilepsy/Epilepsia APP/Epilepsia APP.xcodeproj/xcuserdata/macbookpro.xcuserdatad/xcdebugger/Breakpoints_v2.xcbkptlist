@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "90C4EC70-5BA5-4A3A-A45D-1065B30C2513"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8B4EFD4F-3C53-41EF-9ED7-9FCA93680C36"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Epilepsia APP/ViewModels/PerfilViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "PerfilViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "8B4EFD4F-3C53-41EF-9ED7-9FCA93680C36 - 91306fec90f00a30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of Epilepsia_APP.PerfilViewModel.pdfURL : Swift.Optional&lt;Foundation.URL&gt;"
+                  moduleName = "Epilepsia APP.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookpro/Desktop/Antigravity/epilepsycare-ai%203/FidelEpilepsy/Epilepsia%20APP/%3Cstdin%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "8B4EFD4F-3C53-41EF-9ED7-9FCA93680C36 - 7871820d4741de1c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Epilepsia_APP.PerfilViewModel.pdfURL.getter : Swift.Optional&lt;Foundation.URL&gt;"
+                  moduleName = "Epilepsia APP.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookpro/Desktop/Antigravity/epilepsycare-ai%203/FidelEpilepsy/Epilepsia%20APP/Epilepsia%20APP/ViewModels/PerfilViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "8B4EFD4F-3C53-41EF-9ED7-9FCA93680C36 - 7a649572079f8f64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Epilepsia_APP.PerfilViewModel.pdfURL.setter : Swift.Optional&lt;Foundation.URL&gt;"
+                  moduleName = "Epilepsia APP.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookpro/Desktop/Antigravity/epilepsycare-ai%203/FidelEpilepsy/Epilepsia%20APP/%3Cstdin%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "8B4EFD4F-3C53-41EF-9ED7-9FCA93680C36 - fe2779fba25eac1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Epilepsia_APP.PerfilViewModel.pdfURL.modify : Swift.Optional&lt;Foundation.URL&gt;"
+                  moduleName = "Epilepsia APP.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookpro/Desktop/Antigravity/epilepsycare-ai%203/FidelEpilepsy/Epilepsia%20APP/Epilepsia%20APP/ViewModels/PerfilViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "8B4EFD4F-3C53-41EF-9ED7-9FCA93680C36 - 334fcaf817febb8f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Epilepsia_APP.PerfilViewModel.$pdfURL.getter : Combine.Published&lt;Swift.Optional&lt;Foundation.URL&gt;&gt;.Publisher"
+                  moduleName = "Epilepsia APP.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookpro/Desktop/Antigravity/epilepsycare-ai%203/FidelEpilepsy/Epilepsia%20APP/Epilepsia%20APP/ViewModels/PerfilViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "8B4EFD4F-3C53-41EF-9ED7-9FCA93680C36 - f9625bb2aedd9ad7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Epilepsia_APP.PerfilViewModel.$pdfURL.setter : Combine.Published&lt;Swift.Optional&lt;Foundation.URL&gt;&gt;.Publisher"
+                  moduleName = "Epilepsia APP.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookpro/Desktop/Antigravity/epilepsycare-ai%203/FidelEpilepsy/Epilepsia%20APP/%3Cstdin%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "8B4EFD4F-3C53-41EF-9ED7-9FCA93680C36 - 527da6c843c7658a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Epilepsia_APP.PerfilViewModel.$pdfURL.modify : Combine.Published&lt;Swift.Optional&lt;Foundation.URL&gt;&gt;.Publisher"
+                  moduleName = "Epilepsia APP.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookpro/Desktop/Antigravity/epilepsycare-ai%203/FidelEpilepsy/Epilepsia%20APP/Epilepsia%20APP/ViewModels/PerfilViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
